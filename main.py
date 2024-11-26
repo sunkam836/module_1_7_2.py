@@ -1,7 +1,7 @@
 import statistics
-#grades = [[5, 4, 3, 3, 4], [2, 2, 2, 3], [4, 5, 5, 2], [4, 4, 3], [5, 5, 5, 4, 5]]
-#students = {'Johnny', 'Bilbo', 'Steve', 'Khendrik', 'Aaron'}
-journal = {'Aaron':[5, 3, 3, 5, 4], 'Bilbo':[2, 2, 2, 3], 'Johnny':[4, 5, 5, 2], 'Khendrik':[4, 4, 3], 'Steve':[5, 5, 5, 4, 5]}
+grades = [[5, 3, 3, 5, 4], [2, 2, 2, 3], [4, 5, 5, 2], [4, 4, 3], [5, 5, 5, 4, 5]]
+students = {'Johnny', 'Bilbo', 'Steve', 'Khendrik', 'Aaron'}
+journal = {'Aaron':grades[0],'Bilbo':grades[1], 'Johnny':grades[2], 'Khendrik':grades[3], 'Steve':grades[4]}
 average_1 = sum(journal['Aaron'])/len(journal['Aaron'])
 average_2 = sum(journal['Bilbo'])/len(journal['Bilbo'])
 average_3 = sum(journal['Johnny'])/len(journal['Johnny'])
